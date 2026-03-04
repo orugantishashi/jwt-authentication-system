@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .login-form-data{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .login-form-data label{
+            margin-top: 10px;
+        }
+        .login-form-data input{
+            padding: 5px;
+            font-size: 16px;
+        }
+        .login-submit-data{
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form class="login-form-data">
+        <label for="email">Email</label>
+        <input class="login-email-data" id="email" type="email"  placeholder="Enter your email">
+        <label for="password">Password</label>
+        <input class="login-password-data" id="password" type="password" placeholder="Enter your password">
+        <button class="login-submit-data" type="submit">Login</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

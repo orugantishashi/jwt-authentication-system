@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .form-data{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .form-data label{
+            margin-top: 10px;
+        }
+        .form-data input{
+            padding: 5px;
+            font-size: 16px;
+        }
+        .submit-data{
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .login-data{
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <form class="form-data">
+        <label for="name">Name</label>
+        <input class="name-data" id="name" type="text"  placeholder="jhon">
+        <label for="email">Email</label>
+        <input class="email-data" id="email" type="email"  placeholder="jhon@email.com"> 
+        <label for="password">Password</label>
+        <input class="password-data" id="password" type="password" placeholder="jhon@123re" required>
+    <label for="roles" >Role</label>
+        <select class="roles-data" id="roles" name="roles">
+            <option value="user">User</option>
+            <option value="admin">Admin</option>
+        </select> 
+        <button class="submit-data" type="submit">Submit</button>
+    </form>
+    <a href="login.html"><button class="login-data">Login</button></a>
+    
+   
+
+   <script src="script.js"></script>
+</body>
+</html> 
